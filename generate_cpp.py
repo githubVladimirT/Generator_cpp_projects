@@ -34,11 +34,8 @@ def main(project):
             if opening == 'vim':
                 os.system(f"cd ./{project}/ && vim main.cpp")
                 exit(0)
-            else:
-                print(Fore.RED + "Error! Unknow command!" + Fore.RESET)
-                exit(1)
         else:
-            print(Fore.RED + "Command Error! This Command was not found!")
+            print(Fore.RED + "Error! Unknow command!")
 
 
     if project != " " or "":
