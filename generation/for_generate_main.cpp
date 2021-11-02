@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
-
-// For start this code run in console (without ""): "make build"
+// For start this code run in console: make build
 int main() {
-    cout << "Go to Code!" << endl;
-    // Paste there your code.
+    using namespace std;
+    
+    cout << "Go to Code!" << endl; // Remove this line in paste your code.
     return 0;
 }
