@@ -36,6 +36,7 @@ def main(project):
                 exit(0)
         else:
             print(Fore.RED + "Error! Unknow command!")
+            exit(1)
 
 
     if project != " " or "":
