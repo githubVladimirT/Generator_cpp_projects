@@ -9,7 +9,7 @@ def main(project):
 
         if project in os.listdir(f"./"):
             print(Fore.RED + "Error! This Directory is using!" + Fore.RESET)
-            exit(0)
+            exit(1)
         else:
             pass
 
